@@ -1,0 +1,9 @@
+bestfitv2/*
+material/*
+srcSync/*
+*.pt
+*.csv
+*.json
+*.txt
+*ipynb_checkpoints*
+*__pycache__*

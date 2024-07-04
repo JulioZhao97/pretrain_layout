@@ -1,0 +1,46 @@
+size: 
+  width: [600, 1200]
+  ratio: [0.7, 1.5]
+  max_height: 3000
+languages: ['Ch', 'En']
+title: 
+  method: 'figure'
+  method_text:
+    Ch_path: '/mnt/hwfile/opendatalab/kanghengrui/data/source/text/Chinese/title'
+    En_path: '/mnt/hwfile/opendatalab/kanghengrui/data/source/text/English/title'
+    fontsize: [18,36]
+  method_figure:
+    path: '/mnt/petrelfs/zhaozhiyuan/layout/pretrain_layout/material/title'
+    search_map: 'title_material_map.pt'
+    ratio_step: 0.2
+    area_step: 500
+maintext:
+  fontsize: [10,12]
+  Ch_path: '/mnt/hwfile/opendatalab/kanghengrui/data/source/text/Chinese/maintext'
+  En_path: '/mnt/hwfile/opendatalab/kanghengrui/data/source/text/English/maintext'
+image:
+  laion1m:
+    path: "/mnt/hwfile/opendatalab/zhaozhiyuan/laion1m"
+    search_map: "laion1m_material_map.pt"
+  chart:
+    path: "/mnt/hwfile/opendatalab/wangbin/project/pdf/chart/zhangbo/chart_data/png"
+    search_map: "chart_material_map.pt"
+  background:
+    path: "/mnt/hwfile/opendatalab/zhaozhiyuan/laion1m_background"
+    search_map: "laion1m_bg_material_map.pt"
+  ratio_step: 0.1
+  area_step: 1000
+table:
+  # path: '/mnt/hwfile/opendatalab/kanghengrui/icdar_table'
+  # search_map: "table_material_map.pt"
+  path: '/mnt/hwfile/opendatalab/wangbin/share_data/pdf_table/train'
+  search_map: "pdftable_material_map.pt"
+  ratio_step: 0.2
+  area_step: 4000
+others:
+  bg_prob: 0.5
+  visualize: False
+  find_thr: 3
+  eraser_ratio: 1.2
+  line_margin: 2
+  page_type: ["newspaper"]
